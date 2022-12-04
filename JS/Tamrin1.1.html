@@ -8,14 +8,18 @@
 </head>
 <body>
     <script>
+        let arr1=[[[[[5]]]]];
         function arrayDepth(arr){
             let depth=0;
             let flag= Array.isArray(arr);
             while(flag){
                 depth++;
-                
+                flag=arr.some(item=> Array.isArray(item));
+                arr= arr.flat();
             }
+            return depth;
         }
+        console.log(arrayDepth(arr1));
     </script>
     
 </body>
