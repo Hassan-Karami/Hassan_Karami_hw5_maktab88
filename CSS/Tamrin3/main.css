@@ -31,6 +31,10 @@
     line-height: 40px;
 
 }
+.middle h2{
+    color: black;
+    font-weight: 500;
+}
 .middle span{
     padding : 20px;
     font-weight:400;
