@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: aqua;
+}
+.form1{
+    background-color:white;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    padding-top: 10px ;
+    color: gray;
+    font-size: 1.3em;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 100px;
+    line-height: 30px;
+
+
+}
+
+input{
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 2px;
+    color: gray;
+
+}
+.login-btn{
+    width: 150px;
+    height: 25px;
+    background-color:rgba(28,143,187,255)
+    ;
+    border-radius: 2px;
+    border: 1px rgba(28,143,187,255)
+    ;
+
+
+}
